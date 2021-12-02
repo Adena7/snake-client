@@ -1,4 +1,5 @@
 const net = require("net");
+const { stdin } = require("process");
 let IP = '165.227.47.243';
 const PORT = 50541;
 // establishes a connection with the game server
