@@ -31,6 +31,9 @@ const setupInput = (conn) => {
     } 
     if (key === 'd') {
         connection.write("Move: right");
+    } 
+    if (key === 'f') {
+        connection.write("Say: Lets gooo");
     }
   };
 
